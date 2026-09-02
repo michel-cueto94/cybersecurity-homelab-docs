@@ -29,6 +29,11 @@ Durante este ejercicio práctico de laboratorio se simuló un ataque de fuerza b
 Desde la máquina atacante se verificó la conectividad ICMP hacia la víctima y se escaneó el puerto RDP para confirmar que el servicio estuviera escuchando.
 
 bash
+```bash
+# Verificación de conectividad y escaneo del puerto objetivo
+ping -c 4 10.0.2.4
+nmap -p 3389 10.0.2.4
+
 # Verificación de conectividad y escaneo del puerto objetivo
 ping -c 4 10.0.2.4
 nmap -p 3389 10.0.2.4

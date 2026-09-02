@@ -26,7 +26,7 @@ Durante este ejercicio práctico de laboratorio se simuló un ataque de fuerza b
 
 ### Paso 1: Detección del Intento de Intrusion
 * **Evidencia de Auditoría:**
-![Registro Event ID 4625](evidenciadeevento.png)
+![Registro Event ID 4625](evidencia_de_evento.png)
 Se registró una ráfaga inusual de intentos de inicio de sesión fallidos en el sistema objetivo.
 
 * **Event ID identificado:** `4625` (An account failed to log on).

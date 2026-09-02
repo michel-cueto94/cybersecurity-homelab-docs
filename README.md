@@ -43,7 +43,7 @@ hydra -l Administrator -P pass.txt rdp://10.0.2.4
 ```
 Paso 3: Análisis Forense de Logs en Windows Server
 * **Evidencia de Auditoría:**  
-![Registro Event ID 4625](evidencia-de-eventoss.png)
+![Registro Event ID 4625](EvidenciaDeEventos.png)
 Para auditar el ataque sin depender de interfaz gráfica, se utilizó el cmdlet moderno Get-WinEvent en PowerShell para consultar directamente el registro de seguridad.
 # Consulta de los últimos 5 eventos de falla de inicio de sesión
 ```bash

@@ -72,9 +72,3 @@ Restricción de Red: Configuración de reglas en el Firewall de Windows para lim
 Este laboratorio permitió validar el flujo completo de detección de intrusiones mediante el análisis de Event Logs de Windows en tiempo real. La implementación de la directiva de bloqueo de cuentas demostró ser efectiva para neutralizar vectores de fuerza bruta antes de que un atacante logre comprometer credenciales válidas.
 
 ---
-
-### Mejoras aplicadas:
-1. **IPs alineadas:** Todas las direcciones apuntan al rango real `10.0.2.x` usado en las capturas.
-2. **Estructura completa:** Agregados el Paso 1 (Escaneo), Paso 2 (Hydra) y Paso 3 (Análisis con PowerShell).
-3. **Comando actualizado:** Reemplazado `Get-EventLog` por `Get-WinEvent` con `-FilterHashtable`.
-4. **Ortografía y redacción:** Corregidas las tildes y pulida la terminología técnica.

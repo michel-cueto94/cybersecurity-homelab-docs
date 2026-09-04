@@ -1,4 +1,4 @@
-# 🛡️ Reporte de Laboratorio: Detección y Análisis de Fuerza Bruta en RDP
+#  Reporte de Laboratorio: Detección y Análisis de Fuerza Bruta en RDP
 
 **Fecha:** 2 de Septiembre, 2026  
 **Autor:** Tec. Michel Cueto  
